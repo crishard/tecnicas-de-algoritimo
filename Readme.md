@@ -2,7 +2,7 @@
 
 ## Algoritmo de Força bruta
 
-**Algoritmo**
+**Algoritmo combinações de caracteres**
 
 <img src="./forca-bruta/forca-bruta.png"/>
 
@@ -12,7 +12,7 @@
 
 ## Algoritmo de Divisão e Conquista
 
-**Algoritmo**
+**Algoritmo de Merge Sort**
 
 <img src="./divisao-e-conquista/divisao-e-conquista.png"/>
 
@@ -21,7 +21,7 @@
     
 ## Algoritmo de Programação Dinâmica
 
-**Algoritmo**
+**Algoritmo do Troco de moedas (cedulas)**
 
 <img src="./programacao-dinamica/programacao-dinamica.png"/>
 
@@ -32,7 +32,7 @@
 
 ## Algoritmo de Recursividade
 
-**Algoritmo**
+**Algoritmo de fatorial**
 
 <img src="./recursividade/recursividade.png"/>
 
@@ -42,7 +42,7 @@
 
 ## Algoritmo Guloso
 
-**Algoritmo**
+**Algoritmo do probblema da mochila**
 
 <img src="./gulosos/gulosos.png"/>
 
