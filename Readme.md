@@ -42,7 +42,7 @@
 
 ## Algoritmo Guloso
 
-**Algoritmo do probblema da mochila**
+**Algoritmo do problema da mochila**
 
 <img src="./gulosos/gulosos.png"/>
 
