@@ -1,6 +1,6 @@
 # Técnicas de Algoritmos
 
-## Algoritmo de Força bruta
+## Algoritmo de Backtracking
 
 **Algoritmo combinações de caracteres**
 
