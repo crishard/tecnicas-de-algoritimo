@@ -6,16 +6,13 @@ var itens = [
     { id: 5, nome: "item5", peso: 5, valor: 20 }
 ];
 
-//criando variaveis necessarias
 var contadorMochila = 0;
 var selecionados = [];
 var max;
 var valorMochila = 0;
 
-//definindo capacidade maxima da mochila
 const capacidade = 12;
 
-//funcao para remover item da mochila para fazer proxima verificacao
 var removeByAttr = function (arr, attr, value) {
     var i = arr.length;
     while (i--) {
@@ -30,20 +27,18 @@ var removeByAttr = function (arr, attr, value) {
 };
 
 do {
-    //encontra o item com maior valor
     max = itens.reduce(function (anterior, atual) {
         return anterior.valor > atual.valor ? anterior : atual;
     });
-    //se ainda tiver espaco na mochila ele inclui o elemento com peso maximo
+
     if (max.peso + contadorMochila <= capacidade) {
         selecionados.push(max);
-        contadorMochila += max.peso; //ele aumenta o valor do contador da mochila
-        valorMochila += max.valor; //ele aumenta o valor da mochila
-        removeByAttr(itens, "id", max.id); //remove o item com maior valor da relacao inicial de itens
+        contadorMochila += max.peso;
+        valorMochila += max.valor;
+        removeByAttr(itens, "id", max.id);
     } else {
-        //caso o item com peso maximo nao couber na mochila ele apenas remove esse item da relacao inicial para a proxima verificacao
         removeByAttr(itens, "id", max.id);
     }
-} while (capacidade > contadorMochila && itens.length > 0); //roda o loop ate que a capacidade esgote ou ate que a relacao inicial de itens esteja vazia
+} while (capacidade > contadorMochila && itens.length > 0);
 
 console.log(valorMochila, max)
