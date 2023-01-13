@@ -4,7 +4,7 @@
 
 **Algoritmo combinações de caracteres**
 
-<img src="./backtraking/forca-bruta.png"/>
+<img src="./backtraking/backtraking.png"/>
 
 
 <br/>
