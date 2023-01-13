@@ -8,4 +8,4 @@ def permute(length, list):
          for x in permute(length - 1, list)
       ]
 print(permute(1, ["a","b","c"]))
-print(permute(4, ["a","b","c"]))
+print(permute(2, ["a","b","c"]))
