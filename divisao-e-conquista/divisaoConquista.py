@@ -28,6 +28,6 @@ def mergeSort(arr):
             j += 1
             k += 1
 
-arr = [10, 9, 2, 4, 6, 13]
+arr = [6, 5, 12, 10, 9, 1]
 mergeSort(arr)
 print(arr)
