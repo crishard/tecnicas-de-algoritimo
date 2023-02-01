@@ -11,6 +11,7 @@ def dpMakeChange(coinValueList,change,minCoins,coinsUsed):
    return minCoins[change]
 
 def printCoins(coinsUsed,change):
+   print(coinsUsed)
    coin = change
    while coin > 0:
       thisCoin = coinsUsed[coin]
@@ -18,14 +19,15 @@ def printCoins(coinsUsed,change):
       coin = coin - thisCoin
 
 def main():
-    amnt = 30
-    clist = [100,50,25,10,1]
-    coinsUsed = [0]*(amnt+1)
-    coinCount = [0]*(amnt+1)
 
-    print("Fazendo troco para",amnt,"requer")
-    print(dpMakeChange(clist,amnt,coinCount,coinsUsed),"cédulas")
-    print("Elas são:")
-    printCoins(coinsUsed,amnt)
+   change = 30
+   coinsList = [100,50,25,10,1]
+   coinsUsed = [0]*(change+1)
+   coinCount = [0]*(change+1)
+
+   print("Fazendo troco para",change,"requer")
+   print(dpMakeChange(coinsList,change,coinCount,coinsUsed),"cédulas")
+   print("Elas são:")
+   printCoins(coinsUsed,change)
 
 main()
