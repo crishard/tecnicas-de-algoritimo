@@ -6,7 +6,7 @@
 
 <br/>
 
-## Problema: A partir de um conjunto finitos de moedas, deseja-se determinar o número mínimo de moedas que satisfaça um troco de um valor X
+## Problema: A partir de um conjunto finito de moedas, deseja-se determinar o número mínimo de moedas que satisfaça um troco de um valor X
 
 <br/>
 <br/>
