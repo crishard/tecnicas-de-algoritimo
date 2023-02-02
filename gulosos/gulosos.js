@@ -41,4 +41,5 @@ do {
     }
 } while (capacidade > contadorMochila && itens.length > 0);
 
-console.log(valorMochila, max)
+console.log("O valor total na mochila: ",valorMochila);
+console.log("itens Selecionados: ",selecionados);
